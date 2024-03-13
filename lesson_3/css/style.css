@@ -1,0 +1,20 @@
+@import url(reset.css);
+
+.list__link {
+    color: blue;
+}
+.kyiv__text {
+    color: darkgreen;
+}
+.zhytomyr__text {
+    color: darkolivegreen;
+}
+.chernihiv__text {
+    color: forestgreen;
+}
+.sumy__text {
+    color: green;
+}
+.lutsk__text {
+    color: olive;
+}

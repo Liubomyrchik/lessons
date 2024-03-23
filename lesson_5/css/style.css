@@ -1,0 +1,265 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+/* ___________ First section ___________ */
+
+.fashion__section {
+    background: rgba(30, 40, 50, 0.05);
+}
+.fashion__container {
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+.fashion__title {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.fashion__images {
+    width: 1320px;
+    font-size: 0;
+    margin: 0 auto;
+}
+.fashion__img {
+    margin-right: 24px;
+}
+.fashion__img6 {
+}
+
+/* ___________ Second section ___________ */
+
+.krovato__section {
+    background: rgb(248, 248, 248);
+}
+.krovato__container {
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.krovato__title {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.krovato__img {
+    margin-bottom: 40px;
+}
+.krovato__text {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.krovato__subtitle {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.list {
+    padding-left: 47px;
+}
+.list__item {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.krovato__last-text {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ___________ Third section ___________ */
+
+.about__section {
+    background: rgb(248, 248, 248);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about__container {
+    width: 1290px;
+    margin: 0 auto;
+}
+.about__title {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about__title span {
+    text-transform: uppercase;
+}
+.krovato__columns {
+}
+.column {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    vertical-align: top;
+}
+.column__img {
+    margin-bottom: 20px;
+}
+.column__title {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+.column__text {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ___________ Training new ___________ */
+
+.training__section {
+    padding: 20px;
+}
+.training__container {
+}
+.training__title {
+    color: rgb(43, 41, 41);
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+.training__subtitle1 {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+.training__text-container {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.training__text-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+.training__text1 {
+    background-color: rgba(0, 0, 255, 0.350);
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.training__text1-1 {
+    background-color: rgba(0, 0, 255, 0.350);
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.training__text1-2 {
+    background-color: rgba(0, 0, 255, 0.350);
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.training__text1-3 {
+    background-color: rgba(0, 0, 255, 0.350);
+    width: 200px;
+    height: 100px;
+    overflow: clip;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.training__text2 {
+    background-color: rgba(0, 128, 0, 0.350);
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+.training__text2 mark {
+    font-weight: 700;
+}
+.training__span1 {
+    background-color: rgba(255, 255, 0, 0.350);
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.training__span1 mark {
+    font-weight: 700;
+}
+.training__subtitle2 {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.training__images {
+    font-size: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 600px;
+    max-height: 255px;
+    min-height: 200px;
+    background-color: aquamarine;
+    padding: 25px 0 30px; /* Тут вказаний відступ 25px зверху 0px зправа і зліва і 30px знизу */
+    text-align: center;
+    border-radius: 100px;
+}
+.training__img1 {
+    margin-right: 20px;
+}
+.training__img2 {
+    margin-right: 20px;
+}
+.training__img3 {
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* ____________________________ */
